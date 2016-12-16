@@ -1,1 +1,3 @@
-ssh -i 'c:\Users\phu021\.ssh\KeyPair2016.pem' ubuntu@54.186.8.240
+ssh -i 'c:\Users\%USER%\.ssh\KeyPair_Tokyo2.pem' ubuntu@54.238.139.252
+
+ssh -i '/Users/$USER/.ssh/KeyPair_Tokyo2.pem' ubuntu@54.238.139.252
