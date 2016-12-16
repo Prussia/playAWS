@@ -1,0 +1,5 @@
+
+Instance:  i-0bdf732e712da3843Public 
+DNS: ec2-54-186-8-240.us-west-2.compute.amazonaws.com
+IP: 54.186.8.240
+Server: ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20161020 (ami-a9d276c9) 
