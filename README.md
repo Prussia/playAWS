@@ -13,6 +13,9 @@ Mac/Linux 用户：输入 ssh -i ~/.ssh/MyKeyPair.pem ec2-user@{IP 地址}（例
 	* [Manage Docker as a non-root user](https://docs.docker.com/engine/installation/linux/ubuntulinux/#manage-docker-as-a-non-root-user)
 	* [Configure Docker to start on boot](https://docs.docker.com/engine/installation/linux/ubuntulinux/#configure-docker-to-start-on-boot)
 
+	https://hub.docker.com/r/mrjin/shadowsocks/
+	docker run -d -e METHOD=aes-256-cfb -e PASSWORD=jin123 -e SERVER_PORT=8888 -p 8888:8888 --restart=always --name=ss-demo mrjin/shadowsocks:alpine
+
 
 **TODO**
 - [Hands-On Labs](https://cloudacademy.com/labs/)
