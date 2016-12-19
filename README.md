@@ -15,7 +15,7 @@ Mac/Linux 用户：输入 ssh -i ~/.ssh/MyKeyPair.pem ec2-user@{IP 地址}（例
 
 	[Reference](https://hub.docker.com/r/mrjin/shadowsocks/)
 	docker run -d -e METHOD=aes-256-cfb -e PASSWORD=jin123 -e SERVER_PORT=8888 -p 8888:8888 --restart=always --name=ss-demo mrjin/shadowsocks:alpine
-
+**[Install Docker Compose](https://docs.docker.com/compose/install/)**
 
 **TODO**
 - [Hands-On Labs](https://cloudacademy.com/labs/)
