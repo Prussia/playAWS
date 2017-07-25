@@ -4,6 +4,7 @@
 
 ### [CoreOs](./COREOS.md)
 TODO on Kubernetes
+[基于CoreOS在AWS上的项目实践](http://www.10tiao.com/html/217/201611/2649692421/1.html)
 
 ### Ubuntu
 #### 1. [Connecting to AWS server](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html) 
