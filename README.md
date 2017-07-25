@@ -3,7 +3,8 @@
 ## [Create AWS Server Instance](https://aws.amazon.com/cn/getting-started/tutorials/launch-a-virtual-machine/)
 
 ### [CoreOs](./COREOS.md)
-TODO on Kubernetes
+#### Connect to CoreOS
+sudo ssh -i '/Users/'$USER'/.ssh/{key}.pem' core@{IP}
 [基于CoreOS在AWS上的项目实践](http://www.10tiao.com/html/217/201611/2649692421/1.html)
 
 ### Ubuntu
