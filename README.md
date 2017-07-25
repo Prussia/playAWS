@@ -9,11 +9,11 @@ sudo ssh -i '/Users/'$USER'/.ssh/{key}.pem' core@{IP}
 
 ### Ubuntu
 #### 1. [Connecting to AWS server](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html) 
-- Windows 用户：
-输入 ssh -i 'c:\Users\您的用户名\.ssh\MyKeyPair.pem' ec2-user@{IP 地址}（例如，ssh -i 'c:\Users\adamglic\.ssh\MyKeyPair.pem' ec2-user@52.27.212.125）
+- For Windows：
+ssh -i 'c:\Users\{username}\.ssh\MyKeyPair.pem' ec2-user@{IP 地址}（例如，ssh -i 'c:\Users\adamglic\.ssh\MyKeyPair.pem' ec2-user@52.27.212.125）
 
-- Mac/Linux 用户：
-输入 ssh -i ~/.ssh/MyKeyPair.pem ec2-user@{IP 地址}（例如 ssh -i ~/.ssh/MyKeyPair.pem ec2-user@52.27.212.125）
+- For Mac/Linux：
+sudo ssh -i ~/.ssh/MyKeyPair.pem ec2-user@{IP 地址}（例如 ssh -i ~/.ssh/MyKeyPair.pem ec2-user@52.27.212.125）
 
 #### 2. [Install Docker on Ubuntu](https://docs.docker.com/engine/installation/linux/ubuntulinux/#/install-the-latest-version) 
 - [Prerequisites by Ubuntu Version Ubuntu Xenial 16.04 (LTS)](https://docs.docker.com/engine/installation/linux/ubuntulinux/#ubuntu-xenial-1604-lts-wily-1510-trusty-1404-lts)
