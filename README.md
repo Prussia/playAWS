@@ -3,6 +3,7 @@
 ## [Create AWS Server Instance](https://aws.amazon.com/cn/getting-started/tutorials/launch-a-virtual-machine/)
 
 ### [CoreOs](./COREOS.md)
+TODO on Kubernetes
 
 ### Ubuntu
 #### 1. [Connecting to AWS server](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html) 
@@ -23,7 +24,7 @@
 docker run -d -e METHOD=aes-256-cfb -e PASSWORD=jin123 -e SERVER_PORT=8888 -p 8888:8888 --restart=always --name=ss-demo mrjin/shadowsocks:alpine
 ```
 
-##### [Install Docker Compose](https://docs.docker.com/compose/install/)
+##### 4. [Install Docker Compose](https://docs.docker.com/compose/install/)
 
 ## **TODO**
 - [Hands-On Labs](https://cloudacademy.com/labs/)
