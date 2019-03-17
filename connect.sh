@@ -1,3 +1,14 @@
-MYKEY='/Users/'$USER'/.ssh/KeyPair_Tokyo2.pem'
-AWS_TOKYO_SERVER=ubuntu@54.238.176.106
-sudo ssh -i $MYKEY $AWS_TOKYO_SERVER
+KEYNAME=
+SERVER_ADDRESS=
+echo $KEYNAME
+echo $SERVER_ADDRESS
+
+KEY_PATH='/Users/'$USER'/.ssh/'$KEYNAME
+USERSERVER='ubuntu@'$SERVER_ADDRESS
+
+echo $KEY_PATH
+echo $USERSERVER
+
+echo sudo ssh -i $KEY_PATH $USERSERVER
+
+sudo ssh -i $KEY_PATH $USERSERVER
