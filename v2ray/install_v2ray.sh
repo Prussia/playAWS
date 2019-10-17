@@ -10,10 +10,10 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 "inboundDetour": [
 {
 "protocol": "shadowsocks",
-"port": 8864,
+"port": <port>,
 "settings": {
 "method": "aes-256-cfb",
-"password": Pwcwelcome1#,
+"password": <password>,
 "udp": true,
 "level": 1,
 "ota": false
