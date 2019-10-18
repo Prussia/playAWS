@@ -1,0 +1,14 @@
+# ===== ss protocol =====
+"inboundDetour": [
+{
+"protocol": "shadowsocks",
+"port": 8864,
+"settings": {
+"method": "aes-256-cfb",
+"password": myPassword,
+"udp": true,
+"level": 1,
+"ota": false
+}
+}
+    ]
